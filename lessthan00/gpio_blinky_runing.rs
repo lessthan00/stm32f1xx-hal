@@ -1,6 +1,6 @@
 //! Blinks several LEDs stored in an array
 //! PC13->LED
-//! PA1 ->LED2
+//! PA ->LEDs
 #![deny(unsafe_code)]
 #![no_std]
 #![no_main]

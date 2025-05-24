@@ -101,15 +101,5 @@ fn main() -> ! {
         }
     }
 }
-// cargo.toml
-// [dependencies]
-// bme280 = { version = "0.3.0", optional = true }
-// [features]
-// ...
-// bme280 = ["dep:bme280"]
-// [[example]]
-// name = "i2c-bme280"  
-// path = "examples/i2c-bme280/src/main.rs"
-// required-features = ["stm32f103", "bme280"]
-//  cargo check --example i2c-bme280 --features "stm32f103,bme280,rtic" --release
-
+//cargo check --example my_i2c-bme280 --features "stm32f103,bme280,rtic" --release
+//cargo run --example my_i2c-bme280 --features "stm32f103,bme280,rtic" --release
