@@ -154,3 +154,13 @@ required-features = ["stm32f103"]
 [[example]]
 name = "serial-interrupt-idle"
 required-features = ["stm32f103", "medium"]
+
+[[example]]
+name = "my_gpio_blinky"
+path = "lessthan00/gpio_blinky.rs"
+required-features = ["stm32f103"]
+
+[[example]]
+name = "my_gpio_blinky_runing"
+path = "lessthan00/gpio_blinky_runing.rs"
+required-features = ["stm32f103"]
