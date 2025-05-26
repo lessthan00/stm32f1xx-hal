@@ -190,5 +190,9 @@ name = "my_i2c-ssd1306"
 path = "lessthan00/i2c-ssd1306.rs"
 required-features = ["stm32f103"]
 
+[[example]]
+name = "my_gpio_exit_counter"
+path = "lessthan00/gpio_exit_counter.rs"
+required-features = ["stm32f103"]
 
 

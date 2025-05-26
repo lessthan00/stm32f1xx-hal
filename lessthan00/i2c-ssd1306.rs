@@ -128,5 +128,5 @@ fn main() -> ! {
     loop {}
 }
 
-//cargo check --features "stm32f103,bme280,rtic" --example my_i2c
-//cargo run --features "stm32f103,bme280,rtic" --example my_i2c
+//cargo check --features "stm32f103,rtic" --example my_i2c
+//cargo run --features "stm32f103,rtic" --example my_i2c
