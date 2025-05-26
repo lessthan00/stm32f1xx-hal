@@ -195,4 +195,9 @@ name = "my_gpio_exit_counter"
 path = "lessthan00/gpio_exit_counter.rs"
 required-features = ["stm32f103"]
 
+[[example]]
+name = "my_gpio_exit_encoder"
+path = "lessthan00/gpio_exit_encoder.rs"
+required-features = ["stm32f103"]
+
 
